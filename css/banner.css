@@ -1,0 +1,43 @@
+.banner__main{
+    height: 600px;
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    z-index: -2;
+    /* background-repeat: no-repeat;
+    width: 100%; */
+}
+
+.banner__regalo__titulo{
+    padding: 200px;
+}
+.banner__regalo{
+    display: flex;
+}
+.banner__regalo__icono{
+    filter: drop-shadow(5px 5px 10px rgb(255, 0, 0));
+}
+.products__box{
+    display: flex;
+    position: relative;
+}
+.banner__regalo__coffecrem{
+    position: absolute;
+    left: 80px;
+    top: 30px;
+}
+.banner__regalo__vanila{
+    position: absolute;
+    left: 130px;
+    top: 60px;
+}
+.banner__regalo__todoenuno{
+    position: absolute;
+    left: 200px;
+    top: 45px;
+    z-index: -1;
+}
+.pastocanasta{
+    position: absolute;
+    top: 135px;
+    left: 15px;
+}

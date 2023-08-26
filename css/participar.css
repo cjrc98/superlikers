@@ -1,0 +1,78 @@
+*{
+    color: white;
+}
+.participar__container__titulo{
+    background-color: #cc0000;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.participar__titulo{
+    font-size: 28px;
+}
+.rectangulo{
+    width: 150px;
+    height: 70px;
+    background-image: url('../img/rectanguloredondeado.png');
+    background-repeat: no-repeat;
+    transform: scaleX(-1);
+    background-position-y: 50%;
+}
+.rectanguloalt{
+    width: 150px;
+    height: 70px;
+    background-image: url('../img/rectanguloredondeado.png');
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+}
+.pasos__box{
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.pasos__card{
+    background-color: #981103;
+    border-right: 1px solid #cc0000;
+    padding: 10px;
+    flex: 1;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.767);
+    padding: 10px 0px;
+    text-align: center;
+}
+.pasos__img{
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-color: #6f1209;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    margin: 20px auto;
+    position: relative;
+}
+.pasos--uno__img{
+    background-image: url('../img/check.png');
+}
+.pasos--dos__img{
+    background-image: url('../img/present.png');
+}
+.pasos--tres__img{
+    background-image: url('../img/favourites.png');   
+}
+.pasos--cuatro__img{
+    background-image: url('../img/send.png');
+}
+
+.imgsemi{
+    bottom: 10px;
+    right: -4px;
+    position: absolute;
+    width: 120px;
+}
+
+.point__card{
+    color: black;
+}

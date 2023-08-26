@@ -1,0 +1,73 @@
+.container__header{
+    display: flex;
+    align-items: center;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    background-color: #cc0000;
+    border-radius: 0px 0px 10px 0px;
+    margin: 0;
+}
+
+.logo__circle{
+    background-color: #cc0000;
+    width: 163px;
+    height: 163px;
+    border-radius: 50%;
+    position: absolute;
+    top: -58px;
+}
+
+.logo__image{
+    position: relative;
+    top: 40%;
+    left: 20%;
+    height: 100px;
+    background-image: url('../img/logocolcafe.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+}
+
+.navbar__item{
+    margin-left: 20px;   
+    background-repeat: no-repeat;
+    height: 30px;
+    padding-left: 1.5rem;
+    border-right: 1px solid white;
+    padding-right: 20px;
+}
+
+.navbar__item--tc{
+    background-image: url('../img/alert.png');
+
+}
+.navbar__item--concurso{
+    background-image: url('../img/right.png');
+}
+.navbar__item--participa{
+    background-image: url('../img/exclamation.png');
+}
+.navbar__item--premios{
+    background-image: url('../img/award.png');
+}
+.navbar__item--regalos{
+    background-image: url('../img/gificon.png');
+   
+}
+
+
+
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    padding: 0;
+}
