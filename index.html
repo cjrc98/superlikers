@@ -7,6 +7,11 @@
   <link href="./css/header.css" rel="stylesheet" />
   <link href="./css/banner.css" rel="stylesheet" />
   <link href="./css/participar.css" rel="stylesheet" />
+  <link href="./css/footer.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;700&display=swap" rel="stylesheet">
   <title>Colcafe</title>
 </head>
 
@@ -29,31 +34,53 @@
     </header>
 
     <section class="banner__main">
-      
+
       <div class="banner__regalo">
+
         <div class="banner__regalo__titulo">
-          <img src="img/gifsecret.png">
-        </div>
-        <div class="banner__regalo__icono">
-          <img src="img/regalo.png">
+
+          <div class="banner__regalo__icono">
+            <div class="circulointerno">
+              <img class="banner__regalo--img" src="img/regalo.png">
+            </div>
+          </div>
+
+          <div class="titulo__imagen">
+            <img class="banner__regalo__icono--semi" src="img/semicirculo.png">
+            <img src="img/gifsecret.png">
+          </div>
+
         </div>
 
+
         <div class="products__box">
-          
+
           <div class="banner__regalo__canasta">
             <img src="img/canasta.png">
           </div>
           <div class="pastocanasta">
             <img src="img/pastoCanasta.png">
           </div>
+
           <div class="banner__regalo__coffecrem">
             <img src="img/coffecrem.png">
           </div>
+          <div class="pastocoffe">
+            <img src="img/pastoCoffe.png">
+          </div>
+
           <div class="banner__regalo__vanila">
             <img src="img/vainilla.png">
           </div>
+          <div class="pastovainilla">
+            <img src="img/pastoVainilla.png">
+          </div>
+
           <div class="banner__regalo__todoenuno">
             <img src="img/todouno.png">
+          </div>
+          <div class="pastotodouno">
+            <img src="img/pastoTodouno.png">
           </div>
 
         </div>
@@ -70,7 +97,7 @@
 
       <div class="participar__container__titulo">
         <div class="rectangulo"></div>
-        <p class="participar__titulo">¿COMO PARTICIPAR?</p>
+        <p class="participar__titulo">¿CÓMO PARTICIPAR?</p>
         <div class="rectanguloalt"></div>
       </div>
 
@@ -101,13 +128,42 @@
         </div>
 
       </div>
-
-      <div class="point__review">
-        <div class="point__card">punto por tarjeta enviada.</div>
-        <div class="point__card">puntos por tarjeta Aceptada.</div>
+      <div class="point__background">
+        <div class="breaker"></div>
+        <div class="point__review">
+          <div class="point__review--edge">
+            <div class="point__card">
+              <span style="font-size: 38px; font-weight: 400;">1</span>
+              <img style="height: 40px;" src="img/staryellow.png">punto por tarjeta enviada.
+            </div>
+            <div class="point__card">
+              <span style="font-size: 38px; font-weight: 400;">5</span>
+              <img style="height: 40px;" src="img/staryellow.png">puntos por tarjeta Aceptada.
+            </div>
+          </div>
+        </div>
+        <div class="breaker--down"></div>
       </div>
-
     </section>
+
+    <div class="participante__info">
+      <div class="container__text">
+        <p style="width: 80%; max-width: 900px;">¡El participante con más puntos será el ganador del Regalo Secreto
+          Colcafé! los 20 participantes siguientes con más puntos ganarán productos Colcafé.</p>
+        <div class="container__button">
+          <button class="btn__continuar">Continuar</button>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer__container">
+        <img src="img/colcafefooter.png">
+        <p><b>Centro América. Copyright  &copy; 2015</b></p>
+        <a style="text-decoration: underline;" >Terminos y condiciones</a>
+        <img src="img/smlogo.png">
+      </div>
+    </footer>
 
   </div>
   <script src="solution.js"></script>

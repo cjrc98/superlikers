@@ -1,5 +1,6 @@
 *{
     color: white;
+    font-family: 'League Spartan', sans-serif;
 }
 .participar__container__titulo{
     background-color: #cc0000;
@@ -8,6 +9,7 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
+    padding-top: 1rem;
 }
 .participar__titulo{
     font-size: 28px;
@@ -41,6 +43,7 @@
     color: rgba(255, 255, 255, 0.767);
     padding: 10px 0px;
     text-align: center;
+    padding-bottom: 30px;
 }
 .pasos__img{
     background-position: 50% 50%;
@@ -74,5 +77,108 @@
 }
 
 .point__card{
-    color: black;
+    height: 66px;
+    width: 50%;
+    font-size: 25px;
+    margin-top: 20px;
+    left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid #981103;
+    gap: 10px;
+
+}
+.participante__info{
+    height: 200px;
+    background-image: url('../img/fondoparticipante.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.point__background{
+    background-image: url('../img/backgroundpoint.png');
+    background-size: cover;
+    width: 100%;
+    height: 120px;
+    position: relative;
+}
+.breaker {
+    position: absolute;
+    top: 0%; 
+    width: 100%; 
+    height: 5px; 
+    background-color: transparent;
+    border-top: 7px solid #fc655d;
+    border-bottom: 1px solid #fc655d;
+    z-index: 2;
+}
+.point__review{
+    width: 80%;
+    max-width: 1200px;
+    height: 100px;
+    background-color: #6f1209;
+    padding: 0 1rem;
+    border-radius: 10px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.point__review--edge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed #981103;
+    border-top: 0;
+    height: 90px;
+    border-radius: 10px;
+}
+
+.breaker--down{
+    position: absolute;
+    bottom: -5%; 
+    width: 100%; 
+    height: 5px; 
+    background-color: transparent;
+    border-top: 7px solid #fc655d;
+    border-bottom: 1px solid #fc655d;
+    z-index: 2;
+}
+.btn__continuar{
+    height: 50px;
+    color: #981103;
+    font-weight: 400;
+    font-size: 25px;
+    background-color: #fbe933;
+    border: none;
+    border-bottom: 5px solid #a66e2e;
+    width: 130px;
+    border-radius: 5px;
+}
+.btn__continuar:hover{
+    background-color: #fce91f;
+    border-bottom: none;
+}
+.container__button{
+    border: 2px dashed #cc0000;
+    height: 80px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container__text{
+    background-color: #981103;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    font-size: 25px;
+
+    background-image: linear-gradient(-45deg, #ffcccc0a 5px, transparent 5px, transparent 50%, #ffcccc0a 53%, #ffcccc0a 49%, transparent 60%, transparent);
+    background-size: 40px 40px; /* Ajusta el tamaño de las rayas */
+    background-repeat: repeat; /* Repite el patrón */
 }

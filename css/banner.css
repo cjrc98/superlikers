@@ -1,6 +1,6 @@
 .banner__main{
-    height: 600px;
-    background-image: url('../img/banner.jpg');
+    height: 800px;
+    background-image: url('../img/banner.png');
     background-size: cover;
     z-index: -2;
     /* background-repeat: no-repeat;
@@ -9,12 +9,34 @@
 
 .banner__regalo__titulo{
     padding: 200px;
+    position: relative;
 }
 .banner__regalo{
     display: flex;
 }
 .banner__regalo__icono{
-    filter: drop-shadow(5px 5px 10px rgb(255, 0, 0));
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: #fc3e39;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circulointerno{
+    height: 100px;
+    width: 100px;
+    border: 2px dashed white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner__regalo--img{
+    /* position: absolute;
+    left: 20px;
+    top: 20px; */
 }
 .products__box{
     display: flex;
@@ -24,20 +46,42 @@
     position: absolute;
     left: 80px;
     top: 30px;
+    filter: drop-shadow(0px 0px 100px rgb(0, 0, 0)); 
 }
 .banner__regalo__vanila{
     position: absolute;
     left: 130px;
     top: 60px;
+    z-index: 1;
 }
 .banner__regalo__todoenuno{
     position: absolute;
     left: 200px;
     top: 45px;
-    z-index: -1;
 }
 .pastocanasta{
     position: absolute;
     top: 135px;
     left: 15px;
+}
+.pastocoffe{
+    position: absolute;
+    top: 175px;
+    left: 80px;
+}
+.pastovainilla{
+    position: absolute;
+    top: 175px;
+    left: 130px;
+    z-index: 2;
+}
+.pastotodouno{
+    position: absolute;
+    top: 165px;
+    left: 210px;
+}
+.banner__regalo__icono--semi{
+    /* left: -5px; */
+    position: absolute;
+    width: 100px;
 }
