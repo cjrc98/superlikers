@@ -1,8 +1,9 @@
-*{
+* {
     color: white;
     font-family: 'League Spartan', sans-serif;
 }
-.participar__container__titulo{
+
+.participar__container__titulo {
     background-color: #cc0000;
     height: 70px;
     display: flex;
@@ -11,10 +12,12 @@
     gap: 10px;
     padding-top: 1rem;
 }
-.participar__titulo{
+
+.participar__titulo {
     font-size: 28px;
 }
-.rectangulo{
+
+.rectangulo {
     width: 150px;
     height: 70px;
     background-image: url('../img/rectanguloredondeado.png');
@@ -22,20 +25,24 @@
     transform: scaleX(-1);
     background-position-y: 50%;
 }
-.rectanguloalt{
+
+.rectanguloalt {
     width: 150px;
     height: 70px;
     background-image: url('../img/rectanguloredondeado.png');
     background-repeat: no-repeat;
     background-position-y: 50%;
 }
-.pasos__box{
-    height: 200px;
+
+.pasos__box {
+    height: auto;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
-.pasos__card{
-    background-color: #981103;
+
+.pasos__card {
+    background-color: #990000;
     border-right: 1px solid #cc0000;
     padding: 10px;
     flex: 1;
@@ -44,11 +51,14 @@
     padding: 10px 0px;
     text-align: center;
     padding-bottom: 30px;
+    min-width: 280px;
+    border-bottom: 1px solid #cc0000;
 }
-.pasos__img{
+
+.pasos__img {
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-color: #6f1209;
+    background-color: #660000;
     border-radius: 50%;
     width: 100px;
     height: 100px;
@@ -56,27 +66,31 @@
     margin: 20px auto;
     position: relative;
 }
-.pasos--uno__img{
+
+.pasos--uno__img {
     background-image: url('../img/check.png');
 }
-.pasos--dos__img{
+
+.pasos--dos__img {
     background-image: url('../img/present.png');
 }
-.pasos--tres__img{
-    background-image: url('../img/favourites.png');   
+
+.pasos--tres__img {
+    background-image: url('../img/favourites.png');
 }
-.pasos--cuatro__img{
+
+.pasos--cuatro__img {
     background-image: url('../img/send.png');
 }
 
-.imgsemi{
+.imgsemi {
     bottom: 10px;
     right: -4px;
     position: absolute;
     width: 120px;
 }
 
-.point__card{
+.point__card {
     height: 66px;
     width: 50%;
     font-size: 25px;
@@ -85,12 +99,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-right: 2px solid #981103;
+    border-right: 2px solid #990000;
     gap: 10px;
 
 }
-.participante__info{
-    height: 200px;
+
+.participante__info {
+    height: auto;
+    padding: 10px;
     background-image: url('../img/fondoparticipante.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -98,70 +114,77 @@
     justify-content: center;
     align-items: center;
 }
-.point__background{
+
+.point__background {
     background-image: url('../img/backgroundpoint.png');
     background-size: cover;
     width: 100%;
     height: 120px;
     position: relative;
 }
+
 .breaker {
     position: absolute;
-    top: 0%; 
-    width: 100%; 
-    height: 5px; 
+    top: 0%;
+    width: 100%;
+    height: 5px;
     background-color: transparent;
-    border-top: 7px solid #fc655d;
-    border-bottom: 1px solid #fc655d;
+    border-top: 7px solid #ff6666;
+    border-bottom: 1px solid #ff6666;
     z-index: 2;
 }
-.point__review{
+
+.point__review {
     width: 80%;
     max-width: 1200px;
     height: 100px;
-    background-color: #6f1209;
+    background-color: #660000;
     padding: 0 1rem;
     border-radius: 10px;
     margin: 0 auto;
     z-index: 1;
 }
 
-.point__review--edge{
+.point__review--edge {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px dashed #981103;
+    border: 2px dashed #990000;
     border-top: 0;
     height: 90px;
     border-radius: 10px;
 }
 
-.breaker--down{
+.breaker--down {
     position: absolute;
-    bottom: -5%; 
-    width: 100%; 
-    height: 5px; 
+    bottom: -5%;
+    width: 100%;
+    height: 5px;
     background-color: transparent;
-    border-top: 7px solid #fc655d;
-    border-bottom: 1px solid #fc655d;
+    border-top: 7px solid #ff6666;
+    border-bottom: 1px solid #ff6666;
     z-index: 2;
 }
-.btn__continuar{
+
+.participante__btn__continuar {
     height: 50px;
-    color: #981103;
+    color: #990000;
     font-weight: 400;
     font-size: 25px;
-    background-color: #fbe933;
+    background-color: #ffff33;
     border: none;
     border-bottom: 5px solid #a66e2e;
     width: 130px;
     border-radius: 5px;
+    display: block;
 }
-.btn__continuar:hover{
+
+.participante__btn__continuar:hover {
     background-color: #fce91f;
     border-bottom: none;
 }
-.container__button{
+
+.container__button {
     border: 2px dashed #cc0000;
     height: 80px;
     width: 180px;
@@ -169,16 +192,36 @@
     align-items: center;
     justify-content: center;
 }
-.container__text{
-    background-color: #981103;
-    height: 150px;
+
+.container__text {
+    background-color: #990000;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 1rem;
     font-size: 25px;
-
     background-image: linear-gradient(-45deg, #ffcccc0a 5px, transparent 5px, transparent 50%, #ffcccc0a 53%, #ffcccc0a 49%, transparent 60%, transparent);
-    background-size: 40px 40px; /* Ajusta el tamaño de las rayas */
-    background-repeat: repeat; /* Repite el patrón */
+    background-size: 40px 40px;
+    background-repeat: repeat;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    .point__card {
+        width: 100%;
+    }
+
+    .point__review--edge {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .point__review {
+        height: auto;
+    }
+
+    .point__background {
+        height: auto;
+    }
 }

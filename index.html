@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./css/header.css" rel="stylesheet" />
+  <link href="./css/general.css" rel="stylesheet" />
   <link href="./css/banner.css" rel="stylesheet" />
   <link href="./css/participar.css" rel="stylesheet" />
   <link href="./css/footer.css" rel="stylesheet" />
@@ -15,81 +16,98 @@
   <title>Colcafe</title>
 </head>
 
-<body>
-  <div class="container">
+<body>         
 
-    <header class="container__header">
-      <div class="logo__circle">
-        <div class="logo__image"></div>
-      </div>
-      <nav class="navbar">
-        <ul class="navbar__list">
-          <li class="navbar__item navbar__item--tc">Terminos y condiciones</li>
-          <li class="navbar__item navbar__item--concurso">Concurso</li>
-          <li class="navbar__item navbar__item--participa">Participa</li>
-          <li class="navbar__item navbar__item--premios">Premios</li>
-          <li class="navbar__item navbar__item--regalos">Mis regalos</li>
-        </ul>
-      </nav>
-    </header>
+  <div class="container">
 
     <section class="banner__main">
 
-      <div class="banner__regalo">
+      <header class="container__header">
+        <div class="logo__circle">
+          <div class="logo__image"></div>
+        </div>
+        <nav class="navbar">
+          <ul class="navbar__list">
+            <li class="navbar__item navbar__item--tc">Terminos y condiciones</li>
+            <li class="navbar__item navbar__item--concurso">Concurso</li>
+            <li class="navbar__item navbar__item--participa">Participa</li>
+            <li class="navbar__item navbar__item--premios">Premios</li>
+            <li class="navbar__item navbar__item--regalos">Mis regalos</li>
+          </ul>
+        </nav>
+      </header>
 
-        <div class="banner__regalo__titulo">
-
-          <div class="banner__regalo__icono">
-            <div class="circulointerno">
-              <img class="banner__regalo--img" src="img/regalo.png">
+      <div class="banner__content">
+        
+        <div class="banner__gift">
+          <div class="banner__gift__titulo">
+  
+            <div class="banner__gift__icono">
+              <div class="circulointerno">
+                <img class="banner__gift--img" src="img/regalo.png">
+              </div>
             </div>
+  
+            <div class="title__imagen">
+              <img class="banner__gift__icono--semi" src="img/semicirculo.png">
+              <img class="banner__img__regalosecreto" src="img/gifsecret.png">
+            </div>
+  
           </div>
 
-          <div class="titulo__imagen">
-            <img class="banner__regalo__icono--semi" src="img/semicirculo.png">
-            <img src="img/gifsecret.png">
-          </div>
+          <div class="products__box">
+  
+            <div class="banner__gift__canasta">
+              <img class="banner__img--canasta" src="img/canasta.png">
+            </div>
+            <div class="pastocanasta">
+              <img class="banner__img--pastocanasta" src="img/pastoCanasta.png">
+            </div>
+            <div class="elipsecanasta"></div>
 
+            <div class="banner__gift__coffecrem">
+              <img class="banner__img--coffecrem" src="img/coffecrem.png">
+            </div>
+            <div class="pastocoffe">
+              <img class="banner__img--pastocoffe" src="img/pastoCoffe.png">
+            </div>
+            <div class="elipsecoffe"></div>
+
+            <div class="banner__gift__vanila">
+              <img class="banner__img--vainilla" src="img/vainilla.png">
+            </div>
+            <div class="pastovainilla">
+              <img class="banner__img--pastovainilla" src="img/pastoVainilla.png">
+            </div>
+            <div class="elipsevainilla"></div>
+
+            <div class="banner__gift__todoenuno">
+              <img class="banner__img--todouno" src="img/todouno.png">
+            </div>
+            <div class="pastotodouno">
+              <img class="banner__img--pastotodouno" src="img/pastoTodouno.png">
+            </div>
+          <div class="elipsetodouno"></div>
+
+          </div>
         </div>
 
-
-        <div class="products__box">
-
-          <div class="banner__regalo__canasta">
-            <img src="img/canasta.png">
+        <div class="information">
+        <div class="banner__inf">
+          <div class="banner__inf--line"></div>
+          <div class="banner__inf--line--dashed"></div>
+          <div class="banner__inf--edge">
+            <h1 class="banner__inf__titulo">Colcafé,</h1>
+            <p class="banner__inf__texto">quiere que consientas a tus amigos, envíales un <br>
+            <span class="banner__inf__span">REGALO VIRTUAL </span> y participa por increíbles premios.</p>
           </div>
-          <div class="pastocanasta">
-            <img src="img/pastoCanasta.png">
-          </div>
-
-          <div class="banner__regalo__coffecrem">
-            <img src="img/coffecrem.png">
-          </div>
-          <div class="pastocoffe">
-            <img src="img/pastoCoffe.png">
-          </div>
-
-          <div class="banner__regalo__vanila">
-            <img src="img/vainilla.png">
-          </div>
-          <div class="pastovainilla">
-            <img src="img/pastoVainilla.png">
-          </div>
-
-          <div class="banner__regalo__todoenuno">
-            <img src="img/todouno.png">
-          </div>
-          <div class="pastotodouno">
-            <img src="img/pastoTodouno.png">
-          </div>
-
         </div>
-
+        <div class="elipse"></div>
+        </div>
       </div>
+      
 
-      <div class="banner__inf">
 
-      </div>
 
     </section>
 
@@ -151,7 +169,7 @@
         <p style="width: 80%; max-width: 900px;">¡El participante con más puntos será el ganador del Regalo Secreto
           Colcafé! los 20 participantes siguientes con más puntos ganarán productos Colcafé.</p>
         <div class="container__button">
-          <button class="btn__continuar">Continuar</button>
+          <button class="participante__btn__continuar">Continuar</button>
         </div>
       </div>
     </div>
@@ -161,12 +179,12 @@
         <img src="img/colcafefooter.png">
         <p><b>Centro América. Copyright  &copy; 2015</b></p>
         <a style="text-decoration: underline;" >Terminos y condiciones</a>
-        <img src="img/smlogo.png">
+        <img class="footer__img--smdigital" src="img/smlogo.png">
       </div>
     </footer>
 
   </div>
-  <script src="solution.js"></script>
+  <script src="main.js"></script>
 </body>
 
 </html>

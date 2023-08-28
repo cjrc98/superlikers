@@ -2,11 +2,27 @@
     height: 50px;
     width: 100%;
     bottom: 0;
-    background-color: #981103;
+    background-color: #990000;
 }
 .footer__container{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
+}
+.footer__img--smdigital{
+    filter: hue-rotate(90deg);
+}
+
+@media (max-width: 768px) {
+   .footer__container{
+    flex-direction: column;
+   }
+   .footer{
+    padding-top: 15px;
+    height: auto;
+   }
+   .footer__img--smdigital{
+    padding: 1rem;
+   }
 }
